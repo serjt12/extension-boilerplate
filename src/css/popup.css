@@ -1,0 +1,327 @@
+.myus_body{
+    /*background-color:#0275d8;*/
+}
+
+.center{
+  text-align: center;
+}
+.myus_extension {
+    font-family: 'Avenir Next W01' !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 6px solid #0275d8;
+    background-color: #fff;
+    box-sizing: content-box;
+    padding: 10px;
+    z-index: 999999999;
+    height: 600px;
+}
+
+.myus_close {
+    font-family: 'Avenir W01', Arial, sans-serif;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    right: -5px;
+    top: 10px;
+    color: white;
+    border: 5px solid #0275d8;
+    margin-right: 20px;
+    margin-top: 0px;
+    font-weight: bold;
+    background-color: #0275d8;
+    z-index: 999999;
+}
+
+.myus_login{
+  min-height: 245px;
+  width:100%;
+  padding: 15px;
+}
+
+.myus_account_info{
+    width:100%;
+    text-align: center;
+}
+
+.myus_actions{
+    width: 100%;
+    height: 55px;
+    margin-left: 10px;
+}
+
+.myus_logout_btn{
+    background-color: #CE2B37;
+    margin: 2px;
+    color: white;
+    border: 1px solid black;
+    width: 30%;
+    display: inline-block;
+}
+
+.myus_viewcart_btn{
+    background-color: #0275d8;
+    margin: 2px;
+    color: white;
+    border: 1px solid black;
+    width: 65%;
+    display: inline-block;
+}
+
+.myus_cap_box{
+    overflow:hidden;
+    width:100%;
+}
+
+.myus_cap_box div{
+    background:#ccc;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.myus_cap_title{
+    font-family: 'Avenir Next W01', Arial, sans-serif;
+    color: #002F36;
+}
+
+.myus_cap_canvas{
+    width:30%;
+    float:left;
+    height:35px;
+    border-width: 1px;
+    background: gray;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.myus_cap_input{
+  height: 35px;
+  width: 30%;
+  margin-right: 40px;
+}
+
+.myus_address_row{
+    font-family: 'Avenir W01', Arial, sans-serif;
+    color: #4b4b4b;
+    background: none;
+    display: inline-block;
+    margin: 0px 0px 10px 10px;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.myus_logo{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+.myus_logo img{
+    height: 43px;
+    width: 158px;
+}
+
+.myus_header{
+    font-size: 18px;
+    margin: 4px auto;
+    text-align: center;
+}
+
+.myus_login_form{
+  text-align: center;
+  align-content: center;
+  width: 100%;
+}
+
+.myus_login_btn{
+  color:#fff;
+  background-color: #0374d9;
+}
+
+.myus_calc_toggle{
+  border:1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  background-color: #0275d8;
+  color: white;
+}
+
+.myus_SRC{
+  height: 420px;
+  overflow: hidden;
+  border:2px solid #0374d9;
+  width: 304px;
+}
+
+.myus_icons {
+    margin-top: 12px;
+    width: 100%;
+    position: relative;
+}
+
+.myus_icon_grid{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.myus_icon {
+    border: 1px solid #fff;
+    width: 33%;
+    color: black;
+    border: none;
+}
+
+.myus_icon p{
+    font-family: 'Avenir W01', Arial, sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    color: black;
+    margin: 8px 14px;
+    pointer-events:none;
+}
+
+.myus_icon img {
+    width: 35px;
+    height: 35px;
+    display: list-item;
+    margin:auto;
+}
+
+.myus_icon img {
+    width: 35px;
+    height: 35px;
+    display: list-item;
+    margin:auto;
+}
+
+.oi-img{
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-left: -10px;
+    max-width: 145px;
+    max-height: 175px;
+}
+
+.itm-row{
+    margin-left:0;
+    margin-right:0;
+    border:1px solid black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.action_buttons{
+    bottom:0;
+    float:left;
+    width:100%;
+}
+
+
+.myus_edit_btn_hldr{
+    margin-top: -18px;
+    float: right;
+    background-color: white;
+    width: 65px;
+    margin-right: 20px;
+}
+
+.itmbtn{
+    text-align: center;
+    float:left;
+    vertical-align: bottom;
+}
+
+.itmbtn-edit{
+    text-align: center;
+    line-height: 1;
+    margin-right: 26px;
+}
+
+.itmbtn-delete{
+    background-color: #CE2B37;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.edit_section{
+    margin-left: 0;
+    margin-right: 0;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+.spcd{
+}
+
+.myus_overall{
+    font-size: 16px;
+    background-color: lightsteelblue;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 12px;
+    border: 1px dotted black;
+    padding: 2px;
+}
+
+.cartDetails{
+  padding: 5px;
+
+  overflow: hidden;
+}
+
+.left-it-up{
+  text-align:left;
+}
+
+.right-it-up{
+  text-align:right;
+}
+
+.myus_save_edit_btn{
+    background-color: #0275d8;
+    margin: 2px;
+    color: white;
+    border: 1px solid black;
+    width: 80px;
+    display: inline-block;
+    margin-top: 15%;
+}
+
+.edt_qty{
+    width: 35px;
+    border: 1px solid black;
+}
+
+.edt_txt_sm{
+    width: 125px;
+    border: 1px solid black;
+}
+
+.edt_txt_lg{
+    width: 250px;
+    border: 1px solid black;
+}
